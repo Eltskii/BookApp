@@ -49,7 +49,7 @@
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/yourusername/bookhamster.git
+   git clone https://github.com/Eltskii/BookApp.git
    cd bookhamster
    ```
 
@@ -92,11 +92,3 @@
 4. **Stored Books**: Access your stored books by navigating to the "StoredBooks" screen.
 5. **Read Book**: If a preview link is available, tap the "Read Book" button to open it in the WebView.
 
-## Contributing
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-name`).
-3. Make your changes.
-4. Commit your changes (`git commit -am 'Add new feature'`).
-5. Push to the branch (`git push origin feature-name`).
-6. Create a new Pull Request.
