@@ -57,7 +57,7 @@ const BookListScreen = ({ navigation }) => {
     const fetchBooks = async (query) => {
         try {
             const response = await fetch(
-                `https://www.googleapis.com/books/v1/volumes?q=${query}&maxResults=10`
+                `https://www.googleapis.com/books/v1/volumes?q=${query}&maxResults=10&key=AIzaSyC-niROq68ctbphjrKT7UPKDDRo9QHYm40`
             );
             const data = await response.json();
             setBooks(data.items || []);
@@ -65,6 +65,7 @@ const BookListScreen = ({ navigation }) => {
             console.error('Error fetching books:', error);
         }
     };
+    
 
     useEffect(() => {
         fetchBooks(searchQuery);
